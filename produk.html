@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produk</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
@@ -14,8 +15,8 @@
             type="button"
             class="navbar-toggle collapsed"
             data-toggle="collapse"
-            data-target="#menu">
-
+            data-target="#menu"
+          >
             <span class="icon-bar"></span><span class="icon-bar"></span
             ><span class="icon-bar"></span>
           </button>
@@ -28,6 +29,26 @@
             <li><a href="tentang.html">Tentang</a></li>
             <li><a href="kontak.html">Kontak</a></li>
             <li><a href="pemesanan.html">Pemesanan</a></li>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false">
+                  <span
+                    class="glyphicon glyphicon-user"
+                    aria-hidden="true"
+                  ></span>
+                  Admin <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="login.html">Login</a></li>
+                </ul>
+              </li>
+            </ul>
           </ul>
         </div>
       </div>
@@ -39,7 +60,6 @@
         <p>Temukan fashion pria terbaik dengan kualitas premium.</p>
       </div>
     </div>
-
 
     <div class="container">
       <input
@@ -53,14 +73,15 @@
       <br />
     </div>
 
-
     <div class="container">
       <div class="row">
-
         <div class="col-md-4 produk">
           <div class="panel panel-default">
             <div class="panel-body text-center">
-              <img src="img/foto1.jpg" class="img-responsive img-thumbnail produk-img" />
+              <img
+                src="img/foto1.jpg"
+                class="img-responsive img-thumbnail produk-img"
+              />
 
               <h3>Sneakers Casual</h3>
 
@@ -74,7 +95,6 @@
             </div>
           </div>
         </div>
-
 
         <div class="col-md-4 produk">
           <div class="panel panel-default">
@@ -97,7 +117,6 @@
           </div>
         </div>
 
-
         <div class="col-md-4 produk">
           <div class="panel panel-default">
             <div class="panel-body text-center">
@@ -119,7 +138,6 @@
           </div>
         </div>
 
-
         <div class="col-md-4 produk">
           <div class="panel panel-default">
             <div class="panel-body text-center">
@@ -140,7 +158,6 @@
             </div>
           </div>
         </div>
-
 
         <div class="col-md-4 produk">
           <div class="panel panel-default">
@@ -197,7 +214,6 @@
     <footer class="footer text-center">
       <p>© 2026 Vieon.Store</p>
     </footer>
-
 
     <script>
       function filterProduk() {
